@@ -20,5 +20,24 @@ public class FuncionesSuma {
         
             
         System.out.println (suma(5,10,15));
+        Coche miCoche = new Coche();
+        
+        miCoche.incrementarPuerta();
+        miCoche.incrementarPuerta();
+        
+        
+        
     }
+    
+ 
+}
+class Coche {
+    
+    int puertas=4;
+    
+    public void incrementarPuerta(){
+    this.puertas++;
+    System.out.println(puertas) ;
+    }
+    
 }
